@@ -2,6 +2,8 @@
 **Project Overview**
 This project was completed as part of Week 2 internship tasks under the guidance of Syntecxhub (@Syntecxhub).
 The goal was to analyze sales data across multiple years and regions, clean and prepare the dataset, and communicate insights using appropriate visualizations.
+
+
 **Repository Structure**
 ├── data/
 │   ├── 2025sales.csv
