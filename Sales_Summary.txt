@@ -1,0 +1,6 @@
+
+Sales Summary:
+- Total sales: 2,298,577.23
+- Number of months: 49
+- Highest sales month: May 2025
+- Highest sales segment: Consumer
