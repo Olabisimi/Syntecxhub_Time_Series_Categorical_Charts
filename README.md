@@ -90,9 +90,13 @@ A text summary was generated and saved as Sales_Summary.txt with the following i
 
     **Key Findings**
 Total Sales: 2,298,577.23
+
 Number of Months Analyzed: 49
+
 Highest Sales Month: May 2025
+
 Highest Sales Segment: Consumer
+
 This summary was exported programmatically using Python file handling.
 
 **Tools & Libraries Used**
