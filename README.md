@@ -59,28 +59,35 @@ Order_Year
 Order_Month
 Order_Month_Name
 Order_Quarter
+
 **Final dataset contained 9,999 records and 20 columns, ready for analysis.**
 
 **Step 4: Exploratory Data Analysis & Visualizations**
 
 **Line Charts (Time Series Analysis)**
+
 The following trends were analyzed: 
 1. Overall Monthly Sales Trend: Shows long-term sales movement across all months. Helps identify growth and seasonal patterns
 2. Yearly Sales Trend (2021–2025): Aggregated yearly view. Shows business growth over time
 3. Quarterly Sales Trend: Highlights seasonal patterns and quarterly performance
-4. Monthly Sales Trend for 2025 Only: Focuses on recent performance. Helps identify short-term fluctuations
+4. Monthly Sales Trend for 2025 Only: Focuses on recent performance. Helps identify short-term fluctuations.
+   
 **Bar Charts (Category Comparison)**
-5. Sales by Segment:Consumer segment recorded the highest sales
-6. Sales by Region:Compares performance across regions
-7. Sales by Shipping Mode: Evaluates which shipping methods drive more sales
+
+6. Sales by Segment:Consumer segment recorded the highest sales
+7. Sales by Region:Compares performance across regions
+8. Sales by Shipping Mode: Evaluates which shipping methods drive more sales.
+   
 **Pie & Doughnut Charts (Proportional Analysis)**
-8. Profit Share by Region (Pie Chart): Shows each region’s contribution to total profit
-9. Profit Share by Shipping Mode (Doughnut Chart): Highlights profitability distribution across shipping methods.
+
+10. Profit Share by Region (Pie Chart): Shows each region’s contribution to total profit
+11. Profit Share by Shipping Mode (Doughnut Chart): Highlights profitability distribution across shipping methods.
 All charts were saved as PNG files for documentation and portfolio use
  
 **Step 5: Summary Insights Export**
 
 A text summary was generated and saved as Sales_Summary.txt with the following insights:
+
     **Key Findings**
 Total Sales: 2,298,577.23
 Number of Months Analyzed: 49
