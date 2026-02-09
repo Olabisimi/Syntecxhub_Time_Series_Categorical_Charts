@@ -1,10 +1,12 @@
 # Syntecxhub_Time_Series_Categorical_Charts
 **Project Overview**
+
 This project was completed as part of Week 2 internship tasks under the guidance of Syntecxhub (@Syntecxhub).
 The goal was to analyze sales data across multiple years and regions, clean and prepare the dataset, and communicate insights using appropriate visualizations.
 
 
 **Repository Structure**
+
 ├── data/
 │   ├── 2025sales.csv
 │   ├── Salestill2024.csv
@@ -29,18 +31,21 @@ The goal was to analyze sales data across multiple years and regions, clean and 
 └── README.md
 
 **Step 1: Dataset Loading**
+
 Multiple datasets was used:
 Sales data (up to 2024 and for 2025)
 Customer data split by region (Central, East, South, West)
 All datasets were loaded using pandas.read_csv() and stored in DataFrames for processing.
 
 **Step 2: Dataset Combination**
+
 Customer datasets were combined into a single customer table using pd.concat()
 Sales datasets were merged together
 The sales and customer data were merged using Customer_ID as the common key
 This resulted in one unified dataset containing sales, customer demographics, region, and shipping information.
 
 **Step 3: Data Cleaning & Preparation**
+
 Key cleaning steps included:
 Handling missing values (identified using .isnull().sum())
 Converting date columns (Order_Date, Ship_Date) to proper datetime format
@@ -57,6 +62,7 @@ Order_Quarter
 **Final dataset contained 9,999 records and 20 columns, ready for analysis.**
 
 **Step 4: Exploratory Data Analysis & Visualizations**
+
 **Line Charts (Time Series Analysis)**
 The following trends were analyzed: 
 1. Overall Monthly Sales Trend: Shows long-term sales movement across all months. Helps identify growth and seasonal patterns
@@ -73,6 +79,7 @@ The following trends were analyzed:
 All charts were saved as PNG files for documentation and portfolio use
  
 **Step 5: Summary Insights Export**
+
 A text summary was generated and saved as Sales_Summary.txt with the following insights:
     **Key Findings**
 Total Sales: 2,298,577.23
@@ -82,6 +89,7 @@ Highest Sales Segment: Consumer
 This summary was exported programmatically using Python file handling.
 
 **Tools & Libraries Used**
+
 Python
 Pandas
 NumPy
@@ -90,6 +98,7 @@ Seaborn
 Jupyter Notebook
 
 **Learning Outcomes**
+
 Through this project, I gained hands-on experience in:
 Combining multiple datasets
 Data cleaning and type handling
@@ -98,5 +107,6 @@ Choosing appropriate visualizations
 Communicating insights clearly through charts and summaries.
 
 **Acknowledgement**
+
 This project was completed as part of my internship training under the guidance of Syntecxhub.
 Special thanks to @Syntecxhub for the structured tasks and mentorship.
